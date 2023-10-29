@@ -1,0 +1,3 @@
+tarjetas de marcas en el index
+color naranja tipo durazno clarito suavecito
+responsividad en pantallas grandes implementar container del 60% y probar
