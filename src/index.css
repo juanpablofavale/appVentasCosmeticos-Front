@@ -96,14 +96,14 @@ main .card{
   max-width: 700px;
   background-color: #f4a981;
   display: flex;
-  height: 35vh;
+  height: 30vh;
   width: 80%;
   border: 1px solid;
   box-shadow: 5px 5px 10px #00000066;
 }
 
 main .card img{
-  width: 50%;
+  width: 40%;
   height: 100%;
   object-fit: cover;
 }
