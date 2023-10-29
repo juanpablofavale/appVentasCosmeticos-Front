@@ -1,3 +1,6 @@
-tarjetas de marcas en el index
-color naranja tipo durazno clarito suavecito
-responsividad en pantallas grandes implementar container del 60% y probar
+tarjetas de marcas en el index - ok
+color naranja tipo durazno clarito suavecito - ok
+responsividad en pantallas grandes implementar container del 60% y probar - ok
+
+responsividad en pantallas chicas
+pensar en mostrar mas info en las promos del home
