@@ -62,6 +62,10 @@ header .logo{
   gap: 10px;
   font-family: 'Playpen Sans', cursive;}
 
+header .logo-name:hover{
+  color: black;
+}
+
 header img{
   width: 100px;
 }
@@ -100,6 +104,12 @@ main .card{
   width: 80%;
   border: 1px solid;
   box-shadow: 5px 5px 10px #00000066;
+  transition: transform .4s;
+  cursor: pointer;
+}
+
+main .card:hover{
+  transform: scale(1.1);
 }
 
 main .card img{

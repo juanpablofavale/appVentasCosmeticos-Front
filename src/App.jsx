@@ -8,10 +8,12 @@ function App() {
     <>
       <header>
         <div className="container">
-          <div className="logo">
-            <img src="/logo.png" alt="logo" />
-            <h1>Vende Diana</h1>
-          </div>
+          <a href="#" className="logo-name">
+            <div className="logo">
+              <img src="/logo.png" alt="logo" />
+              <h1>Vende Diana</h1>
+            </div>
+          </a>
           <nav>
             <ul>
               <li>
