@@ -1,25 +1,26 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
     return (
         <header>
             <div className="container">
-                <a href="#" className="logo-name">
+                <Link to="/">
                     <div className="logo">
                         <img src="/logo.png" alt="logo" />
                         <h1>Que te Vendo</h1>
                     </div>
-                </a>
+                </Link>
                 <nav>
                     <ul>
                         <li>
-                            <a href="#">Inicio</a>
+                            <Link to="/">Inicio</Link>
                         </li>
                         <li>
-                            <a href="#">Tienda</a>
+                            <Link to="/tienda">Tienda</Link>
                         </li>
                         <li>
-                            <a href="#">Contacto</a>
+                            <Link to="/contacto">Contacto</Link>
                         </li>
                     </ul>
                 </nav>
