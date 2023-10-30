@@ -14,7 +14,7 @@ export default function Tienda() {
             name: "Conecto",
             desc: "Eau De Parfum x50Ml",
             imgProd: "/conecto.jpg",
-            imgMarca: "/biogreen.jpeg",
+            imgMarca: "/biogreen.png",
             precio: 10999
         },
         {
@@ -28,7 +28,7 @@ export default function Tienda() {
             name: "Bonjur",
             desc: "Eau De Parfum x50Ml",
             imgProd: "/fondo4.jpg",
-            imgMarca: "/gigot.jpg",
+            imgMarca: "/GIGOT_Logo_Web.png",
             precio: 9999
         },
         {
@@ -58,6 +58,34 @@ export default function Tienda() {
             imgProd: "/bucarest.webp",
             imgMarca: "/bagues.jpeg",
             precio: 5999
+        },
+        {
+            name: "Piedras Aromaticas",
+            desc: "Piedras aromaticas",
+            imgProd: "/piedritas_capullos.jpg",
+            imgMarca: "/biogreen.png",
+            precio: 5999
+        },
+        {
+            name: "Action a 24K",
+            desc: "Serum Reafirmante x30Ml",
+            imgProd: "/action.jpg",
+            imgMarca: "/GIGOT_Logo_Web.png",
+            precio: 5600
+        },
+        {
+            name: "Pitanga",
+            desc: "Jabon liquido x250Ml",
+            imgProd: "/pitanga.jpg",
+            imgMarca: "/natura.jpg",
+            precio: 5600
+        },
+        {
+            name: "Essential",
+            desc: "Revitalizador Guduchi x15Ml",
+            imgProd: "/essential.jpg",
+            imgMarca: "/just.jpg",
+            precio: 12600
         },
     ]
     return (
