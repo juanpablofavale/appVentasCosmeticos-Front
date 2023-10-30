@@ -28,6 +28,11 @@ a{
   color: black;
   text-decoration: none;
 }
+
+li:hover{
+  -webkit-box-reflect: below 0 linear-gradient(transparent,white);
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0009);}
+
 nav a:hover {
   color: #eb653c;
   color: #829a09;
@@ -101,7 +106,7 @@ main .container-tienda{
 }
 
 main .card-tienda{
-  width: 300px;
+  width: 280px;
   box-shadow: 10px 10px 10px #0000005b;
   background-color: #f4a981;
   border-radius: 11px;
@@ -235,13 +240,13 @@ main .card-body h3{
 }
 
 @media only screen and (min-width: 1200px){
-  main .container-tienda{
-    width: 70%;
-  }
   main .promo{
     display: flex;
   }
   main .container{
     width: 55%;
+  }
+  main .container-tienda{
+    width: 70%;
   }
 }
