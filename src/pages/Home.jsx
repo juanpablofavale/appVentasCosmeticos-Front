@@ -1,4 +1,3 @@
-import React from 'react'
 import CardHome from '../components/CardHome'
 import Promo from '../components/Promo'
 
