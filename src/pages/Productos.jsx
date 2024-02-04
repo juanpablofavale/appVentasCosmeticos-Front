@@ -1,11 +1,12 @@
-import axios from 'axios'
 import { useEffect, useState } from 'react'
+import { api } from "../utils/axios.js"
 
 export default function Productos() {
     const [datos, setDatos] = useState([]);
     
     useEffect(()=>{
-        axios("http://localhost:3000/api/productos").then(data => setDatos(data.data.response))
+        api.get('/api/productos').then(data => setDatos(data.data.response))
+        //axios("http://localhost:3000/api/productos").then(data => setDatos(data.data.response))
     },[])
 
     return (
