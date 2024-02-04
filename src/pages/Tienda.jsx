@@ -1,4 +1,4 @@
-import React from 'react'
+import "../styles/tienda.css"
 import CardTienda from '../components/CardTienda'
 
 export default function Tienda() {

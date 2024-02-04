@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Header() {
@@ -18,6 +17,9 @@ export default function Header() {
                         </li>
                         <li>
                             <Link to="/tienda">Tienda</Link>
+                        </li>
+                        <li>
+                            <Link to="/productos">Productos</Link>
                         </li>
                         <li>
                             <Link to="/contacto">Contacto</Link>
